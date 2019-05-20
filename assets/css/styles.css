@@ -51,6 +51,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .hero-image {
@@ -81,6 +82,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .project-title {
@@ -118,6 +120,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 ol, ul {
@@ -162,6 +165,7 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer a {
@@ -224,6 +228,7 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .social {
@@ -238,19 +243,19 @@ figure {
 }
 
 .social-link.twitter {
-  background-image: url('../../img/twitter.svg');
+  background-image: url('../../assets/img/twitter.svg');
 }
 
 .social-link.facebook {
-  background-image: url('../../img/facebook.svg');
+  background-image: url('../../assets/img/facebook.svg');
 }
 
 .social-link.github {
-  background-image: url('../../img/github.svg');
+  background-image: url('../../assets/img/github.svg');
 }
 
 .social-link.instagram {
-  background-image: url('../../img/instagram.svg');
+  background-image: url('../../assets/img/instagram.svg');
 }
 
 .form-email input{
@@ -258,7 +263,7 @@ figure {
   border-style: solid;
   border-radius: 5px;
   padding: 10px 20px 10px 25px;
-  background-image: url('../../img/envelope.svg');
+  background-image: url('../../assets/img/envelope.svg');
   background-size: 15px 15px;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -281,7 +286,7 @@ figure {
 
 .container {
   /* border: 1px solid red; */
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   /* heredados del padre */
   display: inherit;
